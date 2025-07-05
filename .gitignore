@@ -10,7 +10,9 @@ logs
 *.pkz
 user_data/
 runtime/
-mods/
+*.zip
+*.edf
+*.rar
 
 # Runtime data
 pids

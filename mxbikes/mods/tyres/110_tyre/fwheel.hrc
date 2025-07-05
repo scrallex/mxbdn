@@ -1,0 +1,7 @@
+
+
+level0
+{
+	scene = fwheel.edf
+	switch = 0
+}

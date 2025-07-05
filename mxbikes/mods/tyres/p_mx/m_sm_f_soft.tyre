@@ -1,0 +1,158 @@
+type = bike
+id = M SM F Soft
+R0 = 0.300000
+Fz0 = 1000.000000
+p_Cx1 = 1.200000
+p_Dx1 = 1.400000
+p_Dx2 = -0.100000
+p_Kx1 = 30.000000
+r_Bx1 = 13.000000
+r_Bx2 = -10.000000
+r_Cx1 = 1.050000
+p_Cy1 = 1.200000
+p_Cy2 = 0.600000
+p_Dy1 = 1.400000
+p_Dy2 = -0.100000
+p_Ey5 = 0.000000
+p_Ky1 = 20.000000
+p_Ky2 = 1.000000
+p_Ky3 = 0.010000
+p_Ky6 = 3.000000
+r_By1 = 7.000000
+r_By2 = 8.000000
+r_By3 = 0.000000
+r_Cy1 = 1.050000
+r_Hy1 = 0.040000
+q_Bz1 = 9.000000
+q_Cz1 = 1.100000
+q_Dz1 = 0.100000
+q_Dz8 = 0.100000
+q_Ez1 = -10.000000
+s_Sz1 = 0.000000
+q_sy1 = 0.013000
+compound0
+{
+	name = Soft
+	OptTemperature = 55
+	BelowTempFactor = 0.5
+	AboveTempFactor = 0.8
+	HeatingFactorLong = 0.0008
+	HeatingFactorLat = 0.0008
+	HeatingFactorRoll = 0.008
+	WearRate = 0.0006
+	NumKeys = 2
+	Key0 = 0.9, 0.980000
+	Key1 = 1, 0.800000
+	asphalt1
+	{
+		dry_grip = 0.98
+		wet_grip = 0.7
+		resistance_dry = 1
+		resistance_wet = 3
+	}
+	asphalt2
+	{
+		dry_grip = 0.97
+		wet_grip = 0.7
+		resistance_dry = 1
+		resistance_wet = 3
+	}
+	asphalt3
+	{
+		dry_grip = 0.96
+		wet_grip = 0.7
+		resistance_dry = 1
+		resistance_wet = 3
+	}
+	concrete
+	{
+		dry_grip = 0.99
+		wet_grip = 0.7
+		resistance_dry = 1
+		resistance_wet = 3
+	}
+	paint
+	{
+		dry_grip = 0.96
+		wet_grip = 0.7
+		resistance_dry = 1
+		resistance_wet = 3
+	}
+	kerb
+	{
+		dry_grip = 0.96
+		wet_grip = 0.7
+		resistance_dry = 1
+		resistance_wet = 3
+	}
+	grass
+	{
+		dry_grip = 0.65
+		wet_grip = 0.5
+		resistance_dry = 3
+		resistance_wet = 3
+	}
+	sand
+	{
+		dry_grip = 0.3
+		wet_grip = 0.4
+		resistance_dry = 5
+		resistance_wet = 5
+	}
+	soil
+	{
+		dry_grip = 0.71
+		wet_grip = 0.71
+		resistance_dry = 2.8
+		resistance_wet = 2.8
+	}
+	soft soil
+	{
+		dry_grip = 0.7
+		wet_grip = 0.7
+		resistance_dry = 3
+		resistance_wet = 3
+	}
+	compact soil
+	{
+		dry_grip = 0.72
+		wet_grip = 0.72
+		resistance_dry = 2.6
+		resistance_wet = 2.6
+	}
+	gravel
+	{
+		dry_grip = 0.5
+		wet_grip = 0.5
+		resistance_dry = 4
+		resistance_wet = 4
+	}
+	rock
+	{
+		dry_grip = 0.99
+		wet_grip = 0.7
+		resistance_dry = 1
+		resistance_wet = 3
+	}
+}
+compound0 = Soft
+compound1 = Soft
+compound2 = Soft
+OptimalPressure = 210
+SpringBase = 50000
+SpringFactor = 250
+Damper = 634
+Mass = 9.14
+Inertia = 0.4, 0.17, 0.17
+Radius = 0.299
+TorusRadius = 0.06
+Width = 90
+RadiusRPS = 0.0001
+SlipSinkage = 1
+MaxDrainage = 5
+pressure
+{
+	range = 150, 10, 200
+	setting = 4
+}
+tyreHeaterTemperature = 60

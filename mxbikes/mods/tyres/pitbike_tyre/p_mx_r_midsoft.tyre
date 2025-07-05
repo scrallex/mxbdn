@@ -1,0 +1,164 @@
+type = bike
+id = P MX R MidSoft
+R0 = 0.340000
+Fz0 = 1000.000000
+p_Cx1 = 1.200000
+p_Dx1 = 1.200000
+p_Dx2 = -0.100000
+p_Kx1 = 30.000000
+r_Bx1 = 13.000000
+r_Bx2 = -10.000000
+r_Cx1 = 1.050000
+p_Cy1 = 1.200000
+p_Cy2 = 0.600000
+p_Dy1 = 1.200000
+p_Dy2 = -0.100000
+p_Ey5 = 0.000000
+p_Ky1 = 20.000000
+p_Ky2 = 1.000000
+p_Ky3 = 0.010000
+p_Ky6 = 3.000000
+r_By1 = 7.000000
+r_By2 = 8.000000
+r_By3 = 0.000000
+r_Cy1 = 1.050000
+r_Hy1 = 0.040000
+q_Bz1 = 9.000000
+q_Cz1 = 1.100000
+q_Dz1 = 0.100000
+q_Dz8 = 0.100000
+q_Ez1 = -10.000000
+s_Sz1 = 0.000000
+q_sy1 = 0.032000
+compound0
+{
+	name = Mid Soft
+	OptTemperature = 30
+	BelowTempFactor = 2.5
+	AboveTempFactor = 1.5
+	HeatingFactorLong = 0.00006
+	HeatingFactorLat = 0.00006
+	HeatingFactorRoll = 0.00006
+	WearRate = 0.0004
+	NumKeys = 1
+	Key0 = 0.900000, 0.980000
+	Key1 = 1, 0.800000
+	asphalt1
+	{
+		dry_grip = 0.800000
+		wet_grip = 0.800000
+		resistance_dry = 1.000000
+		resistance_wet = 1.000000
+	}
+	asphalt2
+	{
+		dry_grip = 0.800000
+		wet_grip = 0.800000
+		resistance_dry = 1.000000
+		resistance_wet = 1.000000
+	}
+	asphalt3
+	{
+		dry_grip = 0.800000
+		wet_grip = 0.800000
+		resistance_dry = 1.000000
+		resistance_wet = 1.000000
+	}	
+	concrete
+	{
+		dry_grip = 0.8
+		wet_grip = 0.8
+		resistance_dry = 1
+		resistance_wet = 1
+	}
+	paint
+	{
+		dry_grip = 0.800000
+		wet_grip = 0.800000
+		resistance_dry = 1.000000
+		resistance_wet = 1.000000
+	}
+	kerb
+	{
+		dry_grip = 0.800000
+		wet_grip = 0.800000
+		resistance_dry = 1.000000
+		resistance_wet = 1.000000
+	}
+	grass
+	{
+		dry_grip = 0.97
+		wet_grip = 0.97
+		long_grip_scale = 0.75
+		resistance_dry = 6
+		resistance_wet = 6
+	}
+	sand
+	{
+		dry_grip = 0.94
+		wet_grip = 0.94
+		long_grip_scale = 0.75
+		resistance_dry = 10
+		resistance_wet = 10
+	}
+	soil
+	{
+		dry_grip = 0.96
+		wet_grip = 0.96
+		long_grip_scale = 0.75
+		resistance_dry = 5.6
+		resistance_wet = 5.6
+	}
+	soft soil
+	{
+		dry_grip = 0.98
+		wet_grip = 0.98
+		long_grip_scale = 0.75
+		resistance_dry = 6
+		resistance_wet = 6
+	}
+	compact soil
+	{
+		dry_grip = 0.94
+		wet_grip = 0.94
+		long_grip_scale = 0.75
+		resistance_dry = 5.2
+		resistance_wet = 5.2
+	}
+	gravel
+	{
+		dry_grip = 0.96
+		wet_grip = 0.96
+		long_grip_scale = 0.75
+		resistance_dry = 8
+		resistance_wet = 8
+	}
+	rock
+	{
+		dry_grip = 0.8
+		wet_grip = 0.8
+		resistance_dry = 1
+		resistance_wet = 1
+	}
+}
+Compound0 = Hard
+Compound1 = Hard
+Compound2 = Hard
+OptimalPressure = 90.000000
+springBase = 60000.000000
+springFactor = 500.000000
+damper = 634.000000
+mass = 7.500000
+Inertia = 0.339000, 0.274000, 0.274000
+Radius = 0.210000
+TorusRadius = 0.055000
+Width = 60.000000
+radiusRPS = 0.000100
+SlipSinkage = 1.000000
+MaxDrainage = 100
+pressure
+{
+	range = 70, 5, 90
+	setting = 3
+}
+

@@ -1,0 +1,185 @@
+type = bike
+id = AK F Medium
+R0 = 0.350000
+Fz0 = 1000.000000
+p_Cx1 = 1.200000
+p_Dx1 = 1.000000
+p_Dx2 = -0.10000
+p_Ex1 = 0.050000
+p_Ex2 = 0.050000
+p_Ex3 = 0.050000
+p_Ex4 = 0.050000
+p_Kx1 = 30.00000
+p_Kx2 = 0.050000
+p_Kx3 = 0.050000
+r_Bx1 = 13.00000
+r_Bx2 = -10.0000
+r_Bx3 = 0.050000
+r_Cx1 = 1.050000
+p_Cy1 = 1.200000
+p_Cy2 = 0.600000
+p_Dy1 = 0.800000
+p_Dy2 = -0.10000
+p_Dy3 = 0.050000
+p_Ey1 = 0.050000
+p_Ey2 = 0.050000
+p_Ey3 = 0.050000
+p_Ey4 = 0.050000
+p_Ey5 = 0.050000
+p_Ky1 = 20.00000
+p_Ky2 = 1.000000
+p_Ky3 = 0.010000
+p_Ky4 = 0.050000
+p_Ky5 = 0.050000
+p_Ky6 = 3.000000
+p_Ky7 = 0.050000
+r_By1 = 7.000000
+r_By2 = 8.000000
+r_By3 = 0.050000
+r_Cy1 = 1.050000
+r_Hy1 = 0.040000
+q_Bz1 = 9.000000
+q_Cz1 = 1.100000
+q_Dz1 = 0.050000
+q_Dz8 = 0.050000
+q_Ez1 = -10.0000
+s_Sz1 = 0.050000
+q_sy1 = 0.030000
+compound0
+{
+	name = Medium
+	OptTemperature = 30.000000
+	BelowTempFactor = 2.500000
+	AboveTempFactor = 1.500000
+	HeatingFactorLong = 0.000000
+	HeatingFactorLat = 0.000000
+	HeatingFactorRoll = 0.000000
+	WearRate = 0.000000
+	NumKeys = 2
+	Key0 = 0.900000, 0.980000
+	Key1 = 1.000000, 0.800000
+	asphalt1
+	{
+		dry_grip = 2.200000
+		wet_grip = 2.200000
+		long_grip_scale = 0.75
+		resistance_dry = 8.100000
+		resistance_wet = 8.100000
+	}
+	asphalt2
+	{
+		dry_grip = 2.550000
+		wet_grip = 2.550000
+		long_grip_scale = 0.75
+		resistance_dry = 7.500000
+		resistance_wet = 7.500000
+	}
+	asphalt3
+	{
+		dry_grip = 2.880000
+		wet_grip = 2.880000
+		long_grip_scale = 0.75
+		resistance_dry = 6.600000
+		resistance_wet = 6.600000
+	}	
+	concrete
+	{
+		dry_grip = 2.080000
+		wet_grip = 2.080000
+		long_grip_scale = 0.75
+		resistance_dry = 7.600000
+		resistance_wet = 7.600000
+	}
+	kerb
+	{
+		dry_grip = 2.880000
+		wet_grip = 2.880000
+		long_grip_scale = 0.75
+		resistance_dry = 7.600000
+		resistance_wet = 7.600000
+	}
+	grass
+	{
+		dry_grip = 1.270000
+		wet_grip = 1.20000
+		long_grip_scale = 0.75
+		resistance_dry = 3.000000
+		resistance_wet = 3.000000
+	}
+	sand
+	{
+		dry_grip = 0.920000
+		wet_grip = 0.920000
+		long_grip_scale = 0.75
+		resistance_dry = 10.000000
+		resistance_wet = 10.000000
+	}
+	soil
+	{
+		dry_grip = 0.980000
+		wet_grip = 0.980000
+		long_grip_scale = 0.75
+		resistance_dry = 5.600000
+		resistance_wet = 5.600000
+	}
+	soft soil
+	{
+		dry_grip = 0.960000
+		wet_grip = 0.960000
+		long_grip_scale = 0.75
+		resistance_dry = 6.000000
+		resistance_wet = 6.000000
+	}
+	compact soil
+	{
+		dry_grip = 1.000000
+		wet_grip = 1.000000
+		long_grip_scale = 0.75
+		resistance_dry = 5.200000
+		resistance_wet = 5.200000
+	}
+	gravel
+	{
+		dry_grip = 0.940000
+		wet_grip = 0.940000
+		long_grip_scale = 0.75
+		resistance_dry = 8.000000
+		resistance_wet = 8.000000
+	}
+	rock
+	{
+		dry_grip = 2.800000
+		wet_grip = 2.800000
+		resistance_dry = 6.000000
+		resistance_wet = 6.000000
+	}
+	paint
+	{
+		dry_grip = 2.800000
+		wet_grip = 2.800000
+		resistance_dry = 6.000000
+		resistance_wet = 6.000000
+	}
+}
+Compound0 = Medium
+Compound1 = Medium
+Compound2 = Medium
+OptimalPressure = 90.000000
+springBase = 120000.000000
+springFactor = 600.000000
+damper = 500.000000
+mass = 8.000000
+Inertia = 0.620000, 0.330000, 0.330000
+Radius = 0.335000
+TorusRadius = 0.055000
+Width = 50.000000
+radiusRPS = 0.000100
+SlipSinkage = 1.000000
+MaxDrainage = 100.000000
+pressure
+{
+	range = 70.000000, 2.500000, 120.000000
+	setting = 8
+}
+KnobsFactor = 1.2
+KnobsMaxVelocity = 5
